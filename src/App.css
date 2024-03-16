@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.main {
+  padding: 20px 50px;
+  /* background-color: red; */
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+form input {
+  outline: none;
+  /* background: transparent; */
+  border-radius: 5px;
+  padding: 5px 8px;
+  /* box-shadow:1px 2px 10px gray; */
+}
+
+.error {
+  color: red;
+}
